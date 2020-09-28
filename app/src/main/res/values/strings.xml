@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name" translatable="false">IDPRtcLiveApp</string>
+
+    <!-- Setting Activity -->
+    <string name="setting_title">Settings</string>
+    <string name="setting_log_export">Log Upload</string>
+    <string name="setting_server_title">Server ip(takes effect after app restart)</string>
+    <string name="setting_default_server" translatable="false">rtc.myhuaweicloud.com</string>
+    <string name="setting_appId_title" translatable="false">AppId</string>
+    <string name="setting_default_appId" translatable="false">appid</string>
+    <string name="setting_media_encrypt_title" translatable="false">Media Encrypt</string>
+    <string name="setting_signal_encrypt_title" translatable="false">Signal Encrypt</string>
+    <string name="setting_stream_select_title" translatable="false">Decode Stream Type</string>
+
+    <!-- Live Activity -->
+    <string name="notification" translatable="false">rtc-demo</string>
+
+    <!-- Legal digits for channel names -->
+    <string name="legal_channel_name_characters" translatable="false">&#xA0;abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!#$%&amp;()+,-:;&lt;=.>?@[]^_`{|}~</string>
+
+    <!-- LiveActivity -->
+    <string name="live_room_member_list">Members of the Live</string>
+    <string name="live_room_member_tv">Members</string>
+
+</resources>

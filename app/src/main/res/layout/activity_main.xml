@@ -1,0 +1,180 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_dark">
+
+    <ImageView
+        android:id="@+id/setting_button"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginRight="18dp"
+        android:onClick="onSettingClicked"
+        android:src="@drawable/setting" />
+
+    <ImageView
+        android:id="@+id/preview_button"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginRight="60dp"
+        android:onClick="onPreViewClicked"
+        android:src="@drawable/btn_start_preview" />
+
+    <RelativeLayout
+        android:id="@+id/middle_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="80dp"
+        android:focusableInTouchMode="true">
+
+        <ImageView
+            android:id="@+id/main_logo"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="48dp"
+            android:scaleType="centerCrop"/>
+            <!--android:src="@drawable/logo"-->
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/et_channel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/main_logo"
+            android:layout_alignStart="@id/bt_join_channel"
+            android:layout_alignLeft="@id/bt_join_channel"
+            android:layout_alignEnd="@id/bt_join_channel"
+            android:layout_alignRight="@id/bt_join_channel"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="30dp"
+            android:backgroundTint="@color/blue_alpha"
+            android:gravity="center"
+            android:hint="Enter roomId"
+            android:lines="1"
+            android:textColor="@color/blue_alpha"
+            android:textColorHint="@color/blue_alpha"
+            android:textSize="16sp"
+            android:singleLine="true"/>
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/et_username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/et_channel"
+            android:layout_alignStart="@id/bt_join_channel"
+            android:layout_alignLeft="@id/bt_join_channel"
+            android:layout_alignEnd="@id/bt_join_channel"
+            android:layout_alignRight="@id/bt_join_channel"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="30dp"
+            android:backgroundTint="@color/blue_alpha"
+            android:gravity="center"
+            android:hint="Enter userId"
+            android:lines="1"
+            android:paddingBottom="16dp"
+            android:textColor="@color/blue_alpha"
+            android:textColorHint="@color/blue_alpha"
+            android:textSize="16sp"
+            android:singleLine="true"/>
+
+        <RelativeLayout
+            android:id="@+id/rl_role"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/et_username"
+            android:layout_marginLeft="40dp"
+            android:gravity="center">
+            <TextView
+                android:id="@+id/tv_choose_role"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="role："
+                />
+
+            <RadioGroup
+                android:id="@+id/rg_choose_role"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/tv_choose_role"
+                android:layout_alignBottom="@+id/tv_choose_role"
+                android:orientation="horizontal">
+                <RadioButton
+                    android:id="@+id/radio_joiner"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="joiner"/>
+
+                <RadioButton
+                    android:id="@+id/radio_publisher"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="publisher" />
+
+                <RadioButton
+                    android:id="@+id/radio_palyer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="player" />
+
+
+            </RadioGroup>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_encode_list"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/rl_role">
+            <TextView
+                android:id="@+id/tv_encode_choose"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:gravity="center"
+                android:layout_marginTop="20dp"
+                android:paddingLeft="40dp"
+                android:textSize="14sp"
+                />
+            <Spinner
+                android:id="@+id/spinner"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:gravity="center"
+                android:layout_toRightOf="@+id/tv_encode_choose"
+                android:layout_marginTop="20dp"></Spinner>
+        </RelativeLayout>
+
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/bt_join_channel"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_below="@id/rl_encode_list"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/btn_join_channel_bg"
+            android:gravity="center"
+            android:onClick="onJoinChannelClicked"
+            android:layout_marginTop="30dp"
+            android:paddingStart="45dp"
+            android:paddingLeft="45dp"
+            android:paddingEnd="45dp"
+            android:paddingRight="45dp"
+            android:text="Join room"
+            android:textAlignment="gravity"
+            android:textAllCaps="false"
+            android:textColor="@color/join_channel_text_color"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+</RelativeLayout>
