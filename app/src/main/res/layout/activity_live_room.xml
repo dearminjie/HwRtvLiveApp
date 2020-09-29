@@ -3,12 +3,12 @@
      android:layout_width="match_parent"
      android:layout_height="match_parent">
 
-    <com.huawei.rtcdemo.ui.WndArrangeMaker
+    <com.ideapool.rtc.ui.WndArrangeMaker
         android:id="@+id/live_video_grid_layout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginBottom="400dp">
-    </com.huawei.rtcdemo.ui.WndArrangeMaker>
+    </com.ideapool.rtc.ui.WndArrangeMaker>
 
     <WebView
         android:id="@+id/webview"

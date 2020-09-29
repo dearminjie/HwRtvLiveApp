@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.huawei.rtcdemo">
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.ideapool.rtc">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.RECORD_AUDIO" />
@@ -19,10 +20,11 @@
         android:roundIcon="@drawable/logo"
         android:supportsRtl="true"
         android:usesCleartextTraffic="true"
-        android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
+        android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"
+        tools:targetApi="m">
       <!--  android:requestLegacyExternalStorage="true"-->
         <activity
-            android:name="com.huawei.rtcdemo.activities.MainActivity"
+            android:name="com.ideapool.rtc.activities.MainActivity"
             android:label="@string/app_name"
             android:launchMode="standard"
             android:screenOrientation="portrait"
@@ -36,12 +38,12 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.huawei.rtcdemo.activities.LiveActivity"
+            android:name="com.ideapool.rtc.activities.LiveActivity"
             android:launchMode="singleTask"
             android:screenOrientation="portrait" />
 
         <activity
-            android:name="com.huawei.rtcdemo.activities.SettingsActivity"
+            android:name="com.ideapool.rtc.activities.SettingsActivity"
             android:launchMode="standard"
             android:screenOrientation="portrait" />
     </application>

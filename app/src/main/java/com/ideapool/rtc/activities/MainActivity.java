@@ -1,4 +1,4 @@
-package com.huawei.rtcdemo.activities;
+package com.ideapool.rtc.activities;
 
 import android.Manifest;
 import android.content.Intent;
@@ -28,12 +28,14 @@ import com.huawei.rtc.models.HRTCStatsInfo;
 import com.huawei.rtc.models.HRTCUserInfo;
 import com.huawei.rtc.models.HRTCVideoEncParam;
 import com.huawei.rtc.utils.HRTCEnums;
-import com.huawei.rtcdemo.Constants;
-import com.huawei.rtcdemo.R;
-import com.huawei.rtcdemo.RtcApplication;
-import com.huawei.rtcdemo.utils.ExceptionHandler;
-import com.huawei.rtcdemo.utils.LogUtil;
-
+import com.ideapool.rtc.Constants;
+import com.ideapool.rtc.R;
+import com.ideapool.rtc.RtcApplication;
+import com.ideapool.rtc.utils.ExceptionHandler;
+import com.ideapool.rtc.utils.LogUtil;
+import com.ideapool.rtc.activities.BaseActivity;
+import com.ideapool.rtc.activities.SettingsActivity;
+import com.ideapool.rtc.activities.LiveActivity;
 import java.util.ArrayList;
 import java.util.List;
 

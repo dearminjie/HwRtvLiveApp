@@ -1,4 +1,4 @@
-package com.huawei.rtcdemo.adapter;
+package com.ideapool.rtc.adapter;
 
 import android.annotation.SuppressLint;
 import android.view.LayoutInflater;
@@ -9,9 +9,9 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.huawei.rtc.utils.HRTCEnums;
-import com.huawei.rtcdemo.R;
-import com.huawei.rtcdemo.activities.LiveActivity;
-import com.huawei.rtcdemo.bean.BeanRoomMember;
+import com.ideapool.rtc.R;
+import com.ideapool.rtc.activities.LiveActivity;
+import com.ideapool.rtc.bean.BeanRoomMember;
 
 import java.util.List;
 

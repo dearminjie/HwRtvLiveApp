@@ -1,4 +1,4 @@
-package com.huawei.rtcdemo.bean;
+package com.ideapool.rtc.bean;
 
 public class BeanRoomMember {
 

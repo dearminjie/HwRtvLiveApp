@@ -1,4 +1,4 @@
-package com.huawei.rtcdemo;
+package com.ideapool.rtc;
 
 import android.app.Application;
 import android.content.SharedPreferences;
@@ -6,12 +6,14 @@ import android.content.SharedPreferences;
 import com.huawei.rtc.HRTCEngine;
 import com.huawei.rtc.IHRTCEngineEventHandler;
 import com.huawei.rtc.models.HRTCLogInfo;
-import com.huawei.rtcdemo.adapter.RtcEventCallbackAdapter;
-import com.huawei.rtcdemo.adapter.RtcEventHandler;
-import com.huawei.rtcdemo.bean.JoomRoomFailure;
-import com.huawei.rtcdemo.bean.UserJoinedEvent;
-import com.huawei.rtcdemo.utils.KLog;
-import com.huawei.rtcdemo.utils.PrefManager;
+import com.ideapool.rtc.Constants;
+import com.ideapool.rtc.adapter.RtcEventCallbackAdapter;
+import com.ideapool.rtc.adapter.RtcEventHandler;
+import com.ideapool.rtc.bean.JoomRoomFailure;
+import com.ideapool.rtc.bean.UserJoinedEvent;
+import com.ideapool.rtc.utils.KLog;
+import com.ideapool.rtc.utils.PrefManager;
+
 
 import java.util.concurrent.CopyOnWriteArrayList;
 

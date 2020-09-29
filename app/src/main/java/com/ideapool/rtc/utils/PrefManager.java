@@ -1,9 +1,9 @@
-package com.huawei.rtcdemo.utils;
+package com.ideapool.rtc.utils;
 
 import android.content.Context;
 import android.content.SharedPreferences;
 
-import com.huawei.rtcdemo.Constants;
+import com.ideapool.rtc.Constants;
 
 public class PrefManager {
     public static SharedPreferences getPreferences(Context context) {

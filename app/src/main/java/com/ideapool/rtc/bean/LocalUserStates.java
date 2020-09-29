@@ -1,4 +1,4 @@
-package com.huawei.rtcdemo.bean;
+package com.ideapool.rtc.bean;
 
 import static com.huawei.rtc.models.HRTCUserInfo.HRTCRoleType.HRTC_ROLE_TYPE_JOINER;
 

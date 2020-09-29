@@ -1,4 +1,4 @@
-package com.huawei.rtcdemo.ui;
+package com.ideapool.rtc.ui;
 
 import android.app.Dialog;
 import android.content.Context;
@@ -9,7 +9,7 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 
 
-import com.huawei.rtcdemo.R;
+import com.ideapool.rtc.R;
 
 import java.util.Locale;
 

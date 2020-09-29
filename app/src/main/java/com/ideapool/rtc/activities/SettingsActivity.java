@@ -1,4 +1,4 @@
-package com.huawei.rtcdemo.activities;
+package com.ideapool.rtc.activities;
 
 import android.content.SharedPreferences;
 import android.os.Bundle;
@@ -13,11 +13,12 @@ import android.widget.Toast;
 
 import com.huawei.rtc.HRTCEngine;
 import com.huawei.rtc.utils.HRTCEnums;
-import com.huawei.rtcdemo.Constants;
-import com.huawei.rtcdemo.R;
-import com.huawei.rtcdemo.RtcApplication;
-import com.huawei.rtcdemo.ui.UploadDialog;
-import com.huawei.rtcdemo.utils.PrefManager;
+import com.ideapool.rtc.Constants;
+import com.ideapool.rtc.R;
+import com.ideapool.rtc.RtcApplication;
+import com.ideapool.rtc.ui.UploadDialog;
+import com.ideapool.rtc.utils.PrefManager;
+import com.ideapool.rtc.activities.BaseActivity;
 
 import java.lang.ref.WeakReference;
 

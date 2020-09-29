@@ -1,4 +1,4 @@
-package com.huawei.rtcdemo.ui;
+package com.ideapool.rtc.ui;
 
 import android.content.Context;
 import android.graphics.Color;
@@ -9,8 +9,8 @@ import android.view.ViewGroup;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
-import com.huawei.rtcdemo.R;
-import com.huawei.rtcdemo.utils.LogUtil;
+import com.ideapool.rtc.R;
+import com.ideapool.rtc.utils.LogUtil;
 
 import java.util.ArrayList;
 import java.util.HashMap;

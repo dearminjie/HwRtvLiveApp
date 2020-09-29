@@ -1,4 +1,4 @@
-package com.huawei.rtcdemo.adapter;
+package com.ideapool.rtc.adapter;
 
 import com.huawei.rtc.models.HRTCConnectInfo;
 import com.huawei.rtc.models.HRTCLocalAudioStats;

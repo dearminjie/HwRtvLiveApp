@@ -1,4 +1,4 @@
-package com.huawei.rtcdemo.adapter;
+package com.ideapool.rtc.adapter;
 
 import com.huawei.rtc.IHRTCEngineEventHandler;
 import com.huawei.rtc.models.HRTCConnectInfo;
@@ -9,9 +9,11 @@ import com.huawei.rtc.models.HRTCRemoteVideoStats;
 import com.huawei.rtc.models.HRTCStatsInfo;
 import com.huawei.rtc.models.HRTCUserInfo;
 import com.huawei.rtc.utils.HRTCEnums;
-import com.huawei.rtcdemo.bean.JoomRoomFailure;
-import com.huawei.rtcdemo.bean.UserJoinedEvent;
-import com.huawei.rtcdemo.utils.LogUtil;
+import com.ideapool.rtc.bean.JoomRoomFailure;
+import com.ideapool.rtc.bean.UserJoinedEvent;
+import com.ideapool.rtc.adapter.RtcEventHandler;
+import com.ideapool.rtc.utils.LogUtil;
+
 
 import java.util.ArrayList;
 import java.util.List;

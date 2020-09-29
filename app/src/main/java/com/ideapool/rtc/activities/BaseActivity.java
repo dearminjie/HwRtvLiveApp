@@ -1,4 +1,4 @@
-package com.huawei.rtcdemo.activities;
+package com.ideapool.rtc.activities;
 
 import android.os.Bundle;
 
@@ -12,8 +12,8 @@ import com.huawei.rtc.models.HRTCRemoteVideoStats;
 import com.huawei.rtc.models.HRTCStatsInfo;
 import com.huawei.rtc.models.HRTCUserInfo;
 import com.huawei.rtc.utils.HRTCEnums;
-import com.huawei.rtcdemo.adapter.RtcEventHandler;
-import com.huawei.rtcdemo.utils.WindowUtil;
+import com.ideapool.rtc.adapter.RtcEventHandler;
+import com.ideapool.rtc.utils.WindowUtil;
 
 import java.util.List;
 

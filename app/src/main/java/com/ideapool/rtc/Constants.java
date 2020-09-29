@@ -1,4 +1,4 @@
-package com.huawei.rtcdemo;
+package com.ideapool.rtc;
 
 public class Constants {
     public static final String KEY_ROLE = "role";

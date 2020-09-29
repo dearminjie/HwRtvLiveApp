@@ -1,4 +1,4 @@
-package com.huawei.rtcdemo.utils;
+package com.ideapool.rtc.utils;
 
 
 import android.util.Log;
